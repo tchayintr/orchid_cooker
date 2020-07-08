@@ -11,7 +11,6 @@ from datetime import datetime
     Script for cooking ORCHID corpus
       - word-level
       - characteristics
-
 '''
 
 # ORCHID delimiters
@@ -70,7 +69,7 @@ WL_FORMAT = 'wl'
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--quiet', '-q', action='store_true', help='Do not output log file')
+    parser.add_argument('--quiet', '-q', action='store_true', help='Do not report on screen')
     parser.add_argument('--input_data', '-i', type=Path, required=True, help='File path to input data')
     parser.add_argument('--output_data', '-o', type=Path, default=None, help='File path to output data')
     parser.add_argument('--input_data_format', '-f', default='txt', help='Choose format of input data among from \'bin\' and \'txt\' (Default: txt)')
