@@ -1,7 +1,7 @@
 # Thai ORCHID Corpus Cooker
 #### _orchid_cooker_
 
-tool for extracting words from Thai POS-tagged ORCHID corpus.
+A tool for extracting segmented words from Thai POS-tagged ORCHID corpus.
 
 #### Data formats
 - **sl**: sentence line
