@@ -53,6 +53,6 @@ optional arguments:
   # [POST] word: 297851 ...
   # [POST] char: 1422081 ...
   # [POST] words/sent: min=1 max=90 avg=12.880043243243243
-  # [POST] chars/sent: min=50 max=468 avg=61.49539459459459
+  # [POST] chars/sent: min=2 max=554 avg=61.49539459459459
   # [POST] chars/word: min=1 max=64 avg=4.77447112818154
   ```
